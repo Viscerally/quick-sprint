@@ -11,6 +11,946 @@ body {
   }
 }
 
+h1 {
+  font-family: "myriad-pro", sans-serif;
+  font-weight: 100;
+  font-size: 3em;
+  line-height: 1.25em;
+  padding: 7% 7% 5% 7% !important;
+  margin: 0 auto;
+  color: #fff;
+  vertical-align: middle;
+}
+
+.button {
+  background-color: #e76e34;
+  width: 80%;
+  margin: 0 auto;
+  color: #ffffff;
+  padding: 0.5em 1em 1em 1em;
+}
+
+.button-text a {
+  color: #ffffff;
+  font-size: 1.75em;
+  line-height: 1.25em;
+}
+
+.button-text a:hover {
+  color: #6d6e71;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1150px) {
+  h1 {
+      font-size: 280%;
+  }
+  .button-text {
+      font-size: 90%;
+  }
+}
+
+@media only screen and (max-width: 1075px) {
+  h1 {
+      font-size: 280%;
+  }
+  .button-text {
+      font-size: 80%;
+  }
+}
+
+@media only screen and (max-width: 975px) {
+  h1 {
+      font-size: 240%;
+  }
+}
+
+@media only screen and (max-width: 925px) {
+  h1 {
+      font-size: 240%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  h1 {
+      font-size: 220%;
+  }
+  .button-text {
+      font-size: 75%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  h1 {
+      font-size: 200%;
+  }
+  .button-text {
+      font-size: 65%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  h1 {
+      font-size: 180%;
+  }
+  .button-text {
+      font-size: 60%;
+  }
+  .button {
+      padding: 0 0.25em 0.5em 0.25em !important;
+  }
+}
+
+@media only screen and (max-width: 675px) {
+  h1 {
+      font-size: 180%;
+  }
+  .button-text {
+      font-size: 55%;
+  }
+}
+
+@media only screen and (max-width: 615px) {
+  h1 {
+      font-size: 150%;
+  }
+  .button-text {
+      font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  h1 {
+      font-size: 240%;
+  }
+  .button-text {
+      font-size: 70%;
+  }
+  .button {
+      width: 80% !important;
+      padding: 0.5em 1em 1em 1em !important;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  h1 {
+      font-size: 240%;
+  }
+  .button-text {
+      font-size: 70%;
+  }
+}
+
+@media only screen and (max-width: 508px) {
+  h1 {
+      font-size: 240%;
+  }
+  .button-text {
+      font-size: 70%;
+  }
+}
+
+@media only screen and (max-width: 538px) {
+  h1 {
+      font-size: 220%;
+  }
+  .button-text {
+      font-size: 65%;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  h1 {
+      font-size: 190%;
+  }
+  .button-text {
+      font-size: 65%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  h1 {
+      font-size: 120%;
+  }
+  .button-text {
+      font-size: 60%;
+  }
+}
+
+h2 {
+  font-family: "myriad-pro", sans-serif;
+  font-weight: 100;
+  font-size: 3em;
+  line-height: 1.25em;
+  color: #fff;
+  vertical-align: middle;
+  padding: 3.2% 3.2%;
+  margin: 3.2% auto;
+}
+
+@media only screen and (max-width: 1180px) {
+  h2 {
+      font-size: 290%;
+  }
+}
+
+@media only screen and (max-width: 1141px) {
+  h2 {
+      font-size: 260%;
+  }
+}
+
+@media only screen and (max-width: 1028px) {
+  h2 {
+      font-size: 240%;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  h2 {
+      font-size: 211%;
+  }
+}
+
+@media only screen and (max-width: 824px) {
+  h2 {
+      font-size: 190%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  h2 {
+      font-size: 200%;
+  }
+}
+
+@media only screen and (max-width: 668px) {
+  h2 {
+      font-size: 200%;
+  }
+}
+
+@media only screen and (max-width: 612px) {
+  h2 {
+      font-size: 200%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  h2 {
+      font-size: 200%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  h2 {
+      font-size: 170%;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  h2 {
+      font-size: 150%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  h2 {
+      font-size: 120%;
+  }
+}
+
+h3 {
+  font-family: "myriad-pro", sans-serif;
+  font-weight: 500;
+  font-size: 1.1em;
+  line-height: 1.2em;
+  color: #fff;
+  vertical-align: middle;
+  padding: 20px 20px;
+  margin: 0px auto;
+}
+
+.no-padding {
+  padding: 0 10px;
+  margin: 0;
+  line-height: 1.8em;
+}
+
+h4 {
+  font-family: "myriad-pro", sans-serif;
+  font-weight: 500;
+  font-size: 0.95em;
+  line-height: 1em;
+  color: #000;
+  padding: 10% 3.2%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 575px) {
+  h4 {
+      padding: 0;
+  }
+}
+
+p {
+  font-family: "myriad-pro", sans-serif;
+  font-weight: 100;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  color: #fff;
+  vertical-align: middle;
+  padding: 10px 20px 0 20px;
+  margin: 0;
+}
+
+.title {
+  font-family: "myriad-pro", sans-serif;
+  font-weight: 100;
+  font-size: 3em;
+  line-height: 1.5em;
+  color: #585858;
+  vertical-align: middle;
+  padding: 20px 60px;
+  margin: 0;
+}
+
+@media only screen and (max-width: 320px) {
+  .title {
+      font-size: 150%;
+      padding: 20px 30px;
+      font-weight: 500;
+  }
+}
+
+.story-text {
+  color: #585858;
+}
+
+a {
+  text-decoration: none;
+  color: #6d6e71;
+}
+
+a img {
+  border: none;
+}
+
+a.index:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+h1 a:hover {
+  color: #6d6e71;
+  text-decoration: none;
+}
+
+.case-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.case-link:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.logo {
+  font-family: "myriad-pro", sans-serif;
+  font-weight: 100;
+  font-size: 2.5em;
+  color: #fff;
+}
+
+.phone {
+  font-family: "myriad-pro", sans-serif;
+  font-weight: 100;
+  font-size: 1.25em;
+  color: #6d6e71;
+}
+
+.phone-mobile {
+  font-family: "myriad-pro", sans-serif;
+  font-weight: 100;
+  font-size: 1.2em;
+  color: #6d6e71;
+  display: none;
+}
+
+@media only screen and (max-width: 492px) {
+  .phone-mobile {
+      display: block;
+  }
+}
+
+#wrapper {
+  width: 100%;
+  position: relative;
+  text-align: left;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#headcontainer {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footercontainer {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  clear: both;
+  width: 100%;
+  max-width: 92.3em;
+  padding: 2% 0px 5% 0px;
+  vertical-align: middle;
+}
+
+footer {
+  clear: both;
+  padding: 3.2% 0px 5% 0px;
+  margin-top: 1.6%;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+p {
+  margin: 0
+}
+
+#outer {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0;
+}
+
+.left {
+  width: 66.13%;
+  height: 10%;
+  color: #fff;
+  vertical-align: middle;
+  line-height: 50px;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 456px) {
+  .left {
+      margin-bottom: 0px;
+  }
+}
+
+.right {
+  display: inline-block;
+  width: 33%;
+  height: 10%;
+  color: #fff;
+  vertical-align: middle;
+  line-height: 50px;
+  text-align: right;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 492px) {
+  .right {
+      display: none;
+  }
+}
+
+.footer-left {
+  display: inline-block;
+  width: 50%;
+  height: 100px;
+  color: #fff;
+  vertical-align: middle;
+  line-height: 100px;
+  text-align: left;
+  float: left;
+}
+
+.footer-middle {
+  width: 25%;
+  float: left;
+}
+
+.footer-right {
+  display: inline-block;
+  width: 25%;
+  height: 100px;
+  color: #fff;
+  vertical-align: middle;
+  line-height: 100px;
+  text-align: right;
+  float: left;
+}
+
+@media only screen and (max-width: 575px) {
+  .footer-left, .footer-middle, .footer-right {
+      width: 100%;
+      display: block;
+      float: none;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+.share {
+  width: 50%;
+  height: 10%;
+  color: #fff;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.social-icons {
+  display: inline-block;
+  width: 50%;
+  height: 10%;
+  color: #fff;
+  vertical-align: middle;
+  text-align: left;
+  padding-top: 0.75em;
+  padding-bottom: 0.25em;
+}
+
+* html .left, * html .right {
+  display: inline
+}
+
+*+html .left, *+html .right {
+  display: inline
+}
+
+
+/*  SECTIONS  */
+
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+/*  COLUMN SETUP  */
+
+.col {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child {
+  margin-left: 0;
+}
+
+
+/*  GROUPING  */
+
+.group:before, .group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+}
+/*  GRID OF THREE   ============================================================================= */
+
+.span_3_of_3 {
+  width: 100%;
+  overflow: hidden;
+}
+
+.span_2_of_3 {
+  width: 66.13%;
+}
+
+.span_1_of_3 {
+  width: 32.26%;
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 575px) {
+  .span_3_of_3 {
+      width: 100%;
+  }
+  .span_2_of_3 {
+      width: 100%;
+  }
+  .span_1_of_3 {
+      width: 100%;
+  }
+}
+
+
+/*  GRID OF FOUR   ============================================================================= */
+
+.span_4_of_4 {
+  width: 100%;
+}
+
+.span_3_of_4 {
+  width: 74.6%;
+}
+
+.span_2_of_4 {
+  width: 49.2%;
+}
+
+.span_1_of_4 {
+  width: 23.8%;
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 575px) {
+  .col {
+      margin: 1% 0 1% 0%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .span_4_of_4 {
+      width: 100%;
+  }
+  .span_3_of_4 {
+      width: 100%;
+  }
+  .span_2_of_4 {
+      width: 100%;
+  }
+  .span_1_of_4 {
+      width: 100%;
+  }
+}
+
+
+/*  GRID OF FIVE   ============================================================================= */
+
+.span_5_of_5 {
+  width: 100%;
+}
+
+.span_4_of_5 {
+  width: 79.68%;
+}
+
+.span_3_of_5 {
+  width: 59.36%;
+}
+
+.span_2_of_5 {
+  width: 39.04%;
+}
+
+.span_1_of_5 {
+  width: 18.72%;
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 575px) {
+  .span_5_of_5 {
+      width: 100%;
+  }
+  .span_4_of_5 {
+      width: 100%;
+  }
+  .span_3_of_5 {
+      width: 100%;
+  }
+  .span_2_of_5 {
+      width: 100%;
+  }
+  .span_1_of_5 {
+      width: 100%;
+  }
+}
+
+
+/*  GLOBAL OBJECTS ============================================================================= */
+
+.floatleft {
+  float: left;
+}
+
+.floatright {
+  float: right;
+}
+
+.yellowbox {
+  background: #ffc024;
+  width: 40.2%;
+  height: 0;
+  padding-bottom: 33.4%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 575px) {
+  .yellowbox {
+      width: 100%;
+      clear: both;
+      height: 5em;
+  }
+}
+
+.yellowbox .outer {
+  position: relative;
+}
+
+.yellowbox .outer:before {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.violetbox {
+  background: #4967b0;
+  width: 66.13%;
+  height: 0;
+  padding-bottom: 39.5%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .violetbox {
+      padding-bottom: 43%;
+  }
+}
+
+@media only screen and (max-width: 926px) {
+  .violetbox {
+      padding-bottom: 48%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .violetbox {
+      padding-bottom: 51%;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .violetbox {
+      padding-bottom: 59%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .violetbox {
+      padding-bottom: 65%;
+  }
+}
+
+@media only screen and (max-width: 622px) {
+  .violetbox {
+      padding-bottom: 78%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .violetbox {
+      width: 100%;
+      padding-bottom: 40%;
+  }
+}
+
+.violetbox .outer {
+  position: relative;
+  left: 3.2%;
+  right: 3.2%;
+  width: 93.6%;
+}
+
+.violetbox .outer:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.inner {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  width: 100%;
+}
+
+.greenbox {
+  background: #bed63a;
+}
+
+.orangebox {
+  background: #e76e34;
+}
+
+.bluebox {
+  background: #3cacd3;
+}
+
+.greybox {
+  background: #dadada;
+}
+
+.backbox {
+  background: #4967b0;
+}
+
+.featurebox {
+  padding: 28px;
+}
+
+.twentypxpadding {
+  padding: 20px;
+}
+
+img {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 708px) {
+  .footer-image {
+      max-width: 75%;
+      height: auto;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .footer-image {
+      max-width: 100%;
+      height: auto;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .hide-tablet {
+      display: none;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .hide-mobile {
+      display: none;
+  }
+}
+
+.space {
+  margin-top: 1.6%;
+}
+
+.doublespace {
+  margin-top: 3.2%;
+}
+
+section {
+  width: 90%;
+  padding-bottom: 40px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+.studyimg {
+  max-width: 320px;
+  height: auto;
+  float: left;
+  margin: 15px 20px;
+}
+
+@media only screen and (max-width: 320px) {
+  .studyimg img {
+      max-width: 100%;
+      float: left;
+      margin-bottom: 20px;
+  }
+}
+
+
+/*  CASE STUDIES */
+
+.casestudy {
+  background: #fff;
+  width: 64.4%;
+  height: 0;
+  padding-bottom: 26.15%;
+  padding-top: 6%;
+  line-height: 28%;
+  padding-left: 1.6%;
+  text-align: left;
+}
+
+@media only screen and (max-width: 1098px) {
+  .casestudy {
+      padding-bottom: 28.15%;
+      padding-top: 4%;
+      line-height: 28%;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .casestudy {
+      width: 96%;
+      padding-bottom: 28.15%;
+      padding-top: 2%;
+      line-height: 28%;
+  }
+}
+
+@media only screen and (max-width: 742px) {
+  .casestudy {
+      padding-bottom: 40.15%;
+  }
+  @media only screen and (max-width: 575px) {
+      .casestudy {
+          width: 100%;
+          padding-bottom: 8%;
+          padding-top: 5%;
+          line-height: 2%;
+          text-align: center;
+          padding-left: 0;
+      }
+  }
+  .casestudy .outer {
+      position: relative;
+      left: 1.6%;
+      right: 1.6%;
+      width: 96.8%;
+  }
+  .casestudy .outer:before {
+      content: "";
+      display: inline-block;
+      vertical-align: middle;
+  }
+}
+
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
